@@ -1,0 +1,210 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Mono:wght@300;400;500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=DM+Mono:wght@300;400;500&family=Poppins:wght@300;400;500;600;700&display=swap');
+
+*{
+    text-decoration: none;
+    margin: 0;
+    padding: 0px;
+
+}
+
+body {
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Open Sans',sans-serif;
+}
+
+/*---NAV---*/
+.wrapper {
+    width: 1100px;
+    margin: auto;
+    position: relative;
+}
+
+.logo a{
+    font-size: 20px;
+    font-weight: 700;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    text-decoration: none;
+    float: left; 
+    font-family: "Poppins", sans-serif;
+    color: #FFF;
+}
+
+.logo span{
+    color: greenyellow;
+    font-family: "Poppins", sans-serif;
+}
+
+.menu {
+    float: right;
+}
+
+nav {
+    width: 100%;
+    margin: auto;
+    display: flex;
+    line-height: 70px;
+    position: sticky;
+    position: -webkit-sticky;
+    top: 0;
+    background: #080202; 
+    z-index: 1;
+
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+nav ul li{
+    float: left;
+}
+
+nav ul li a{
+    color: #ffffff;
+    font-weight: bold;
+    text-align: center;
+    padding: 0px 16px 0px 16px;
+    text-decoration: none;
+}
+
+nav ul li a:hover{
+    text-decoration: underline;
+}
+
+a.tbl-hijau{
+    background: greenyellow;
+    border-radius: 20px;
+    margin-top: 20px;
+    padding: 15px 20px 15px 20px;
+    color: black;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+a.tbl-hijau:hover {
+    background: #460046;
+    text-decoration: none;
+}
+
+/* END NAV*/
+
+/*---- TAMPILAN -----*/
+section ul {
+  display: flex;
+  margin-bottom: 10px;
+  background : #460046;
+}
+
+section ul li {
+  list-style: none;
+  background: #eee;
+  padding: 8px 20px;
+  margin: 5px;
+  letter-spacing: 1px;
+  cursor: pointer;
+}
+
+section ul li.active {
+  background: greenyellow;
+  color: black;
+}
+
+.galery-bar h1 span{
+    color: greenyellow;
+    font-family: "Poppins", sans-serif;
+}
+
+.product {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.product .itemBox {
+  position: relative;
+  width: 300px;
+  height: 300px;
+  margin: 10px;
+}
+
+.product .itemBox img {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.product .itemTeks {
+    position: relative;
+    width: 300px;
+    height: 25px;
+    margin: 10px;
+    background: greenyellow;
+    color: black;
+    font-weight: bold;
+    text-align: center;
+}
+
+
+.galery-container{
+    /* Background Gradient */
+    background: linear-gradient(90deg, #7cd5e3 20%, #42aceb 90%);
+    box-shadow: 0 0 8px rgba(0, 0, 0, 0.5);
+}
+
+.galery-bar{
+    position: relative;
+    padding: 50px 0;
+    width: 100%;
+    background-color: #181818;
+    box-shadow: 0 0 8px rgba(0, 0, 0, 0.5);
+}
+
+.galery-bar h1{
+    color: #fff;
+    text-align: center;
+    font-size: 24px;
+    letter-spacing: 1px;
+    margin-bottom: 5px;
+    
+}
+
+.galery-bar i{
+    color:orangered;
+}
+
+.galery-bar p{
+    text-align: center;
+    color: #fff;
+}
+
+.search{
+    margin-top: 20px;
+    padding: 10px 0;
+    text-align: center;
+}
+
+.search input {
+    padding: 5px;
+    border: none;
+    border-radius: 5px;
+}
+
+.search label{
+    padding: 4px;
+    background-color: greenyellow;
+    color: black;
+    border: none;
+    border-radius: 5px;
+}
+
+
+
